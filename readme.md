@@ -1,4 +1,7 @@
 # simple react-native application
+
+### you must have  [watchman](https://facebook.github.io/watchman/)
+
 ### how to install
 ```
 $ npm install
