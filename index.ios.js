@@ -1,6 +1,11 @@
-import React, { AppRegistry, Component, StyleSheet, Text, View } from 'react-native'
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ */
 
-class BookSearch extends Component {
+import React, { AppRegistry, Component, StyleSheet, Text, View} from 'react-native'
+
+class simpleApp extends Component {
   render () {
     return (
     <View style={styles.container}>
@@ -24,7 +29,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#fe1e83'
+    backgroundColor: 'red'
   },
   welcome: {
     fontSize: 20,
@@ -38,4 +43,4 @@ const styles = StyleSheet.create({
   }
 })
 
-AppRegistry.registerComponent('BookSearch', () => BookSearch)
+AppRegistry.registerComponent('simpleApp', () => simpleApp)
