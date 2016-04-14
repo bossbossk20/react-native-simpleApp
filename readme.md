@@ -12,8 +12,6 @@ $ git clone https://github.com/bossbossk20/react-native-simpleApp.git
 ```
 $ npm install -g react-native-cli
 ```
-
-
 ### how to install
 ```
 $ npm install
